@@ -13,7 +13,7 @@ public class myhell extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL("create table employee(_id integer primary key,name text,location text , salary integer);");
-        
+
     }
 
     @Override
